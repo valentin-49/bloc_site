@@ -5,6 +5,23 @@
     background-attachment: fixed;
     background-position-x: center;
 }
+.header_main{
+    width: 100%;
+    max-height: max-content;
+    width: auto;
+    background: rgb(52,46,12);
+    background: linear-gradient(90deg, rgba(52,46,12,1) 20%, rgba(76,79,13,1) 33%, rgba(142,168,14,1) 66%, rgba(223,240,4,1) 100%);
+}
+#title{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+#title:hover{
+    font-size: 80px;
+}
 .page{
     margin-left: 10%;
     width: 80%;
@@ -23,16 +40,37 @@
 }
 .responsive {
     width: 90%;
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
-    margin: 30px auto;
+    margin: 20px auto;
     border-radius: 20px;
     overflow: hidden;
+    transition: 0.5s;
 }
-.text{
+#text{
     margin: 30px auto;
     font-size: 20px;
     font-weight: bolder;
     font-family: cursive;
+}
+.submit-btn{
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: white;
+    width: 60% ;
+    height: 60px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: 0.5s;    
+}
+.submit-btn:hover{
+    border-color: slategray;
+    background: slategray;
+    width:  75%;
 }
 
