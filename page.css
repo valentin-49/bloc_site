@@ -1,0 +1,38 @@
+.background{
+    background: url(img/taxi-fond-d-ecran-3554x1999-33547_53.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+.page{
+    margin-left: 10%;
+    width: 80%;
+    height: fit-content;
+}
+.bloc{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.content{
+    margin: 60px auto;
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-radius: 90px;
+}
+.responsive {
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.text{
+    margin: 30px auto;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
