@@ -1,0 +1,27 @@
+.bloc{
+    width: 100%;
+    height: auto;
+    border-color: black;
+    border-style: double;
+}
+.content{
+    border-color: black;
+    border-style: double;
+    margin: 30px auto;
+}
+.responsive {
+    border-color: black;
+    border-style: double;
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+.text{
+    margin: 30px auto;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
